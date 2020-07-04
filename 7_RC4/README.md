@@ -83,7 +83,7 @@ t = (S[i] + S[j]) % 256
 Key_Stream.append(S[t])
 ```
 
-![Proceso de RGCA](/img/RC4.png)
+![Proceso de RGCA](./img/RC4.png)
 
 Finalmente retornamos KeyStream.
 
@@ -122,11 +122,11 @@ Se realiza una demo simple con la libreria tkinter de python.
 
 En la demo selecciomos el metodo encriptar, ingresamos la clave, ingresamos el texto de encriptar y ejecutamos el boton start.
 
-![Proceso de RGCA](/img/test_encriptar_wikipedia.png)
+![Proceso de RGCA](./img/test_encriptar_wikipedia.png)
 
 ### Desencriptar
 
 En la demo selecciomos el metodo desencriptar, ingresamos la clave, ingresamos el texto de desencriptar (copiamos el texto encriptado) y ejecutamos el boton start.
 
-![Proceso de RGCA](/img/test_desencriptar_wikipedia.png)
+![Proceso de RGCA](./img/test_desencriptar_wikipedia.png)
 
